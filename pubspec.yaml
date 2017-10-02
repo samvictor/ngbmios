@@ -1,0 +1,105 @@
+name: NGBM
+description: The official app of New Greater Bethel Ministries
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: '0.2.4'
+  url_launcher: '0.4.2+4'
+  zoomable_image: '1.1.1'
+  http: '0.11.3+12'
+  #firebase_messaging: '0.0.5'
+  #firebase_database: '0.1.0'
+  #firebase_auth: '0.2.3'
+  path_provider: '0.2.1+1'
+  #audioplayer: "^0.2.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+  
+  assets:
+    -   img/banner/banner1.png
+    -   img/banner/banner2.png
+    -   img/social/fb.png
+    -   img/social/twitter.png
+    -   img/social/yt.png
+    -   img/social/insta.png
+    -   img/home/crowd.jpg
+    -   img/home/bible.jpg
+    -   img/home/texting.jpg
+    -   img/home/lady.jpg
+    -   img/mis/about.png
+    -   img/mis/maps1.png
+    -   img/mis/map_icon.png
+    -   img/mis/phone.png
+    -   img/mis/email.png
+    -   img/mis/logo.jpg
+    -   img/mis/logo.gif
+    -   img/mis/give_online.jpg
+    -   img/mis/give_text.jpg
+    -   img/mis/demand.jpg
+    -   img/mis/laptop.jpg
+    -   img/mis/pray.jpg
+    -   img/mis/mic.jpg
+    -   img/mis/pastor.jpg
+    -   img/mini/tent.jpg
+    -   img/mini/academy.jpg
+    -   img/mini/health.jpg
+    -   img/mini/men.jpg
+    -   img/intro/N.png
+    -   img/intro/G.png
+    -   img/intro/B.png
+    -   img/intro/M.png
+    -   img/intro/globe.png
+    -   img/intro/glow.png
+    -   img/intro/bethel.mp3
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/.
+
+  # To add assets from package dependencies, first ensure the asset
+  # is in the lib/ directory of the dependency. Then,
+  # refer to the asset with a path prefixed with
+  # `packages/PACKAGE_NAME/`. The `lib/` is implied, do not
+  # include `lib/` in the asset path.
+  #
+  # Here is an example:
+  #
+  # assets:
+  #  - packages/PACKAGE_NAME/path/to/asset
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
